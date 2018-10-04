@@ -1,0 +1,18 @@
+@media (max-width: 775px) {
+    #sidebar {
+        display: none;
+    }
+    #main {
+        width: 100%;
+    }
+}
+
+#icons{
+    margin: 10px;
+}
+input[type="text"]:focus{
+    background-color: #DCDCDC;
+}
+#dog{
+    margin: 10px;
+}
