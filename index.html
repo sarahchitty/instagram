@@ -10,20 +10,6 @@
     <title>Instagram</title>
 </head>
 
-<!--nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header navbar-left">
-            <img src="instagram_logo.png" alt="logo" height="42" width="42"/>
-            <h1>Instagram</h1>
-        </div>
-        <form class="navbar-form navbar-left" action="/action_page.php">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-        </form>
-    </div>
-</nav-->
 <body>
     <nav class="navbar sticky-top navbar-light bg-light">
         <a class="navbar-brand">
@@ -38,34 +24,57 @@
                 <img class="img-responsive" id="icons" width="30" height="30" src="user.png">
         </a>
     </nav>
-    <!--div id="top" class="container-fluid">
-        <div class="row">
-            <div id="heading" class="col-md-5">
-                <img src="instagram_logo.png" alt="logo" height="42" width="42"/>
-                <h1>Instagram</h1>
-            </div>
-            <div id="search-container" class="col-md-7">
-                < https://www.w3schools.com/howto/howto_css_searchbar.asp >
-                <form action="index.html">
-                    <input type="text" placeholder="Search..." name="search">
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </div>
-        <hr/>
-    </div-->
-    <!--class="rounded mx-auto d-block"-->
+    <!--class="rounded mx-auto d-block"
+    class="figure-caption text-left ml-9"
+class="figure-caption text-center ml-9"-->
     <div class="container-fluid">
         <div class="row">
           <div id="main" class="col-md-8">
-              <figure class="text-center">
-                    <img src="dog.png" alt="dog" class="rounded img-restricted" width="500" height="500"  id="dog" />
+              <figure class="figure">
+                    <figcaption class="figure-caption text-left"> 
+                        <img src="dog.png" alt="dog" class="rounded-circle" width="30" height="30"  id="dog"/>
+                    </figcaption>
+                    <img src="dog.png" alt="dog" class="mx-auto d-block" width="500" height="500"  id="dog" />
                     <figcaption class="figure-caption text-left"> hi </figcaption>
               </figure>
                 
           </div>
-          <div id="sidebar" class="col-md-4">
-            One of two columns
+          <div id="sidebar" class="col-md-4 position-sticky">
+            <figure id="main_prof">
+                <img src="blue_prof.png" alt="ProfilePic" class="rounded-circle" width="50" height="50">
+                <figcaption >
+                    <b>sarah.chitty</b> <br/>
+                    Sarah Chitty
+                </figcaption>
+            </figure>
+            <hr id="main_line"/>
+            <p>Stories</p>
+            <figure id="stories">
+                <img src="disney_prof.png" alt="ProfilePic" class="rounded-circle img-thumbnail" width="60" height="60">
+                <figcaption>
+                    sydney_smith1999   
+                </figcaption>
+                <div class="clear"></div>  
+                <img src="barack_prof.jpg" alt="ProfilePic" class="rounded-circle img-thumbnail" width="60" height="60">
+                <figcaption>
+                    b_obama.usa   
+                </figcaption> 
+                <div class="clear"></div>
+                <img src="profile_cam.png" alt="ProfilePic" class="rounded-circle img-thumbnail" width="60" height="60">
+                <figcaption>
+                    ilovephotos  
+                </figcaption> 
+                <div class="clear"></div>
+                <img src="kim_profile.png" alt="ProfilePic" class="rounded-circle img-thumbnail" width="60" height="60">
+                <figcaption>
+                    kim_kardashian  
+                </figcaption> 
+                <div class="clear"></div>
+                <img src="dog.png" alt="ProfilePic" class="rounded-circle img-thumbnail" width="60" height="60">
+                <figcaption>
+                    i_love_dogs   
+                </figcaption>           
+            </figure>
           </div>
         </div>
       </div>
