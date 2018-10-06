@@ -6,7 +6,9 @@
         width: 100%;
     }
 }
-
+.container-fluid{
+    position: relative;
+}
 #icons{
     margin: 10px;
 }
@@ -49,3 +51,9 @@ figure .image {
     height: 300px;
     overflow: auto;
 }
+#sidebar {
+   position: fixed;
+   top: 50;
+   left: 1000;
+}
+
