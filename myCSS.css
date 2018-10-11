@@ -1,10 +1,22 @@
-@media (max-width: 775px) {
+@media (max-width: 820px) {
     #sidebar {
         display: none;
     }
     #main {
         width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }   
+    .moving{
+        margin-left: auto;
+        margin-right: auto;
+        width:90%;
     }
+}
+
+body{
+    background-color: #f1f1f1;
 }
 .container-fluid{
     position: relative;
@@ -17,6 +29,14 @@ input[type="text"]:focus{
 }
 #dog{
     margin: 1px;
+}
+.moving {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
+
 }
 figure .image {
     width: 100%;
@@ -31,7 +51,10 @@ figure .image {
 #main_line{
     clear: both;
 }
-
+.main_icon img{
+    padding: 10px;
+    margin: 10px;
+}
 #stories img{
     float: left;
     margin-left: 10px;
@@ -52,8 +75,16 @@ figure .image {
     overflow: auto;
 }
 #sidebar {
-   position: fixed;
+   /*position: fixed;*/
    top: 50;
    left: 1000;
 }
 
+.moving figcaption{
+    font-weight: bold;
+    color: black;
+}
+.moving figcaption p{
+    display: inline;
+    font-weight: 400;
+}
