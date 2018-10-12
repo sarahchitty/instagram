@@ -35,11 +35,12 @@ input[type="text"]:focus{
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    width:500px;
+    width:503px;
     background-color: #FAFAFA;
     border: 1px solid lightgrey;
 
 }
+.moving
 figure .image {
     width: 100%;
 }
@@ -53,10 +54,10 @@ figure .image {
 #main_line{
     clear: both;
 }
-.main_icon img{
+/*.moving .main_icon img{
     padding: 10px;
-    margin: 10px;
-}
+    margin: 15px;
+}*/
 #stories img{
     float: left;
     margin-left: 10px;
@@ -85,6 +86,7 @@ figure .image {
 .moving figcaption{
     font-weight: 600;
     color: black;
+    margin: 7px;
 }
 .moving figcaption p{
     display: inline;
@@ -98,3 +100,6 @@ button{
 #first{
     border: 1px solid darkgrey;
 }
+/*#sugg1{
+    border: 1px solid lightgrey;
+}*/
